@@ -1,5 +1,5 @@
 # Developer in Residence Code Challenge
-
+## Solution by Jason Tham
 ## Instructions
 This web application was built using the MEAN stack - specifically Mongodb, Express, and Node.  In order to get this application to run, you'll need to download node which you can do from [here](https://nodejs.org/en/).  If you have brew installed already, you can just install the pre-built package with this command:
 ```
