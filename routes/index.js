@@ -4,7 +4,7 @@ var model = require('../models/Survey');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Survey for WDI' });
+  res.redirect('survey');
 });
 
 router.get('/survey', function(req,res,next){
