@@ -1,0 +1,41 @@
+<!-- Instructions from github repository
+Create a full stack application that allows users to fill out the following survey:
+
+What is your age?
+What is your gender?
+What software do you use to store tasks/items to do?
+Have you used any other software than the above? If so, what?
+What feature(s) do you love about your software?
+What feature(s) do you wish you could have? -->
+
+<h1>{{title}}</h1>
+<hr />
+<form class="form-vertical wdi-survey" action="/survey" method="post">
+  <div class="form-group col-xs-12 col-sm-6">
+    <label for="age">What is your age?</label>
+    <input type="textbox" name="age" placeholder="Age" class="form-control">
+  </div>
+  <div class="form-group col-xs-12 col-sm-6">
+    <label for="gender">What is your gender?</label>
+    <input type="textbox" name="gender" placeholder="Gender" class="form-control">
+  </div>
+  <div class="form-group col-xs-12 col-sm-6">
+    <label for="software">What software do you use to store tasks/items to do?</label>
+    <input type="textbox" name="software" placeholder="Software" class="form-control">
+  </div>
+  <div class="form-group col-xs-12 col-sm-6">
+    <label for="otherSoftware">Have you used any other software than the above? If so, what?</label>
+    <input type="textbox" name="otherSoftware" placeholder="Other software" class="form-control">
+  </div>
+  <div class="form-group col-xs-12 col-sm-6">
+    <label for="features">What feature(s) do you love about your software?</label>
+    <input type="textbox" name="features" placeholder="Features" class="form-control">
+  </div>
+  <div class="form-group col-xs-12 col-sm-6">
+    <label for="wish">What feature(s) do you wish you could have?</label>
+    <input type="textbox" name="wish" placeholder="Wish List" class="form-control">
+  </div>
+  <div class="form-group col-xs-3">
+    <input type="submit" name="submit" value="submit" class="form-control btn btn-success">
+  </div>
+</form>
